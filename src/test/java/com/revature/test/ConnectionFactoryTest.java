@@ -7,10 +7,9 @@ import org.junit.Test;
 import com.revature.util.ConnectionFactory;
 
 public class ConnectionFactoryTest {
+
 	@Test
-	public void connectionFactory_ShouldProduceValidConnection()
-	{
+	public void connectionFactory_ShouldProduceValidConnections() {
 		assertNotNull(ConnectionFactory.getConnection());
 	}
-
 }
